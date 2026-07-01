@@ -5,7 +5,7 @@ use std::collections::HashMap;
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct BlockAttribute {
     #[serde(rename = "type")]
-    pub attribute_type: String,
+    pub attribute_type: Value,
     pub default: Option<Value>,
 }
 
